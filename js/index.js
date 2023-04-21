@@ -5,6 +5,22 @@ import { modalClose } from './modal.js';
 import { Formulario } from './formulario.js';
 
 const modal = document.getElementById('mi_modal');
+let sBrowser = ""
+const sUsrAg = navigator.userAgent;
+
+if(sUsrAg.indexOf("Chrome") > -1) {
+    sBrowser = "Google Chrome";
+} else if (sUsrAg.indexOf("Safari") > -1) {
+    sBrowser = "Apple Safari";
+} else if (sUsrAg.indexOf("Opera") > -1) {
+    sBrowser = "Opera";
+} else if (sUsrAg.indexOf("Firefox") > -1) {
+    sBrowser = "Mozilla Firefox";
+} else if (sUsrAg.indexOf("MSIE") > -1) {
+    sBrowser = "Microsoft Internet Explorer";
+}
+
+alert("Usted está utilizando: " + sBrowser);
 
 
 window.onload = () => {
