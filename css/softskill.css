@@ -1,0 +1,97 @@
+.contenedor-soft-skill{
+    text-align: center;
+}
+
+.soft-skill{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.car-skills{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.car-skills p{
+     color: var(--icono);
+     font-weight: bold;
+}
+
+.images {
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--imagen);
+}
+
+
+.car-skills:hover .overlay{
+    opacity: 1;
+} 
+
+
+
+.text {
+    color: var(--letra-img);
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 1000px){
+    .car-skills{
+        width: 200px;
+        height: 200px;
+    } 
+
+    .car-skills p{
+        font-size:13px;
+    }
+
+    
+    .text{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .car-skills{
+        width: 180px;
+        height: 180px;
+        
+        margin-bottom: 0.5em;
+    } 
+
+    .car-skills p{
+        font-size:10px;
+    }
+
+    
+    .text{
+        font-size:10px;
+    }
+
+    .soft-skill{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

@@ -1,0 +1,74 @@
+
+.modal{
+    display:none;
+    position: fixed;
+	overflow: auto;
+	left: 0;
+	top:0;
+	width: 100%;
+	height:100%;
+	background: none;
+    z-index: 1000;
+}
+
+
+.flex_modal{
+    width: 50%;
+	height:50%;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.alert {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--modalSombra);
+    animation: moverIzquierda 1s ease-in;
+  }
+  
+
+
+  .Alert{
+    background-color: var(--error);
+    color: var(--letra-img);
+  }
+  .Succes{
+    background-color: var(--succes);
+    color: var(--letra-img);
+  }
+  .Error{
+    background-color: var(--alert);
+    color: var(--letra-img);
+  } 
+  .closebtn {
+    margin-left: 15px;
+    color: var(--letra-img);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  @keyframes moverIzquierda{
+  
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
