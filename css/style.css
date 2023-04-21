@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --fondoClaro: #e9ecef;
+    --fondoOscuro: #a9d6e5;
+    --colorHover: #0466c8;
+    --sombra: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    --icono: #023e8a;
+    --letra-img: #03045e; 
+    --menu:  linear-gradient(
+      to right,
+      rgba(33, 147, 176),
+      rgba(110, 214, 237)
+    );
+   
+    --html: #e54d26;
+    --css: #0a74b8;
+    --js: #daba2a;
+    --ts: #3178c6;
+    --an: #dd1b16;
+    --node: #81be01;
+    --git: #f05134;
+    --fb: #fbca3f;
+    --imagen: #00b4d8;
+    --sombra: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    --botonContac: linear-gradient(-225deg, rgba(110, 214, 237) 0%, rgba(33, 147, 176)48%, rgba(5, 102, 199)100%);
+   --alert : #f80000;
+   --succes: #44f814;
+   --error: #fbff12;
+   --modalSombra: 0 0 6px 0 rgba(0, 0, 0, .4);
+   --modalFondo:rgba(0, 0, 0, 0.452);
+  }
+  
+  body {
+    background: var(--fondoClaro);
+    font-family: "PT Serif", serif;
+  }
+  .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+  }
