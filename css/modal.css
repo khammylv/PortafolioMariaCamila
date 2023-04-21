@@ -32,7 +32,7 @@
   
 
 
-  .Alert{
+  .Warning{
     background-color: var(--error);
     color: var(--letra-img);
   }

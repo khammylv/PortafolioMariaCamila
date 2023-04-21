@@ -35,7 +35,7 @@ export const Formulario =()=>{
     
     if(entrar){
         
-     modalOpen('Alert', warnings)
+     modalOpen('Warning', warnings)
     }else{
         
         fetch("https://formsubmit.co/ajax/khammylv@gmail.com",{
@@ -57,6 +57,8 @@ export const Formulario =()=>{
             form.reset(); 
         })
         .catch(err =>{
+            modalOpen('Error', 'Lo siento ha ocurrido un error');
+            form.reset();
             console.log(err);
         });
         // modalOpen('Succes', 'Mensaje enviado con exito');
