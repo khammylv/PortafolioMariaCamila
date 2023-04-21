@@ -37,7 +37,7 @@ export const Formulario =()=>{
         
      modalOpen('Alert', warnings)
     }else{
-        console.log(nombre.value)
+        
         fetch("https://formsubmit.co/ajax/khammylv@gmail.com",{
             method: "POST",
             headers: { 
@@ -53,7 +53,8 @@ export const Formulario =()=>{
         })
         .then(res => res.ok? res.json(): Promise.reject(res))
         .then(json =>{
-            console.log(json);
+            modalOpen('Succes', 'Mensaje enviado con exito');
+            form.reset(); 
         })
         .catch(err =>{
             console.log(err);

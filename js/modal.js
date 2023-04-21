@@ -15,6 +15,9 @@ const modalD = (type, mensaje) => {
 export const modalOpen = (type, mensaje)=>{
   modal.style.display = 'block';
   modalD(type, mensaje);
+  setTimeout(()=>{
+    modal.style.display = 'none';
+  },3000)
 }
 
 export const modalClose = ()=>{
