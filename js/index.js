@@ -20,7 +20,7 @@ if(sUsrAg.indexOf("Chrome") > -1) {
     sBrowser = "Microsoft Internet Explorer";
 }
 
-alert("Usted está utilizando: " + sBrowser);
+//alert("Usted está utilizando: " + sBrowser);
 
 
 window.onload = () => {

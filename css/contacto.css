@@ -3,6 +3,9 @@
     height: auto;
 }
 
+#chrome{
+   opacity: 0;
+}
 .formulario{
     display:flex;
     height: 100%;
