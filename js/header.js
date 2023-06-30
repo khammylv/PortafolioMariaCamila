@@ -2,7 +2,7 @@ const nav = document.getElementById("vista");
 const select = document.getElementById("section6");
 
 export const abrirPdf = () =>{
-  window.open('../pdf/cv.pdf', '_blank')
+  window.open('../pdf/cv .pdf', '_blank')
  
 }
 
