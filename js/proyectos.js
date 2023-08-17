@@ -42,8 +42,8 @@ const proyects = [
     {
         nameProyec: "Studio Ghibli",
         des: "Pagina de peliculas",
-        linkGit: "https://github.com/khammylv/DEV001-data-lovers",
-        pageLink: "https://khammylv.github.io/DEV001-data-lovers/",
+        linkGit: "https://github.com/khammylv/StudioGhibli",
+        pageLink: "https://studio-ghibli-psi.vercel.app/",
         img: "../img/DL.png",
         mov1: "derecha",
         mov2: "izquierda",
