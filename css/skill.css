@@ -63,6 +63,11 @@
     color: var(--fb);
     border-color: var(--fb);
 }
+.rc{
+    color: var(--rc);
+    border-color: var(--rc)
+}
+
 @media screen and (max-width: 1200px){
     .lenguajes-skill{
         margin: 0.5em;

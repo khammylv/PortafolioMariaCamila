@@ -1,5 +1,15 @@
 const proyects = [
     {
+        nameProyec: "Variety Store",
+        des: "Ecommerce Angular",
+        linkGit: "https://github.com/khammylv/ecommerce-angular",
+        pageLink: "https://ecommerce-angular-tau.vercel.app/home",
+        img: "../img/ecommerceangular.png",
+        mov1: "derecha",
+        mov2: "izquierda",
+        typeCard: "exp-Derecha"
+    },
+    {
         nameProyec: "Burguer Queen",
         des: "App de control de pedidos",
         linkGit: "https://github.com/khammylv/DEV001-burger-queen-api-client",

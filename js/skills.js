@@ -38,10 +38,16 @@ const skills = [
         nombre: 'firebase',
         class: 'fb',
         img: 'bx bxl-firebase'
+    },
+    {
+        nombre: 'react',
+        class: 'rc',
+        img: 'bx bxl-react'
+        
     }
 ];
 
-
+// <i class='bx bxl-react'></i>
 const lenguajes = document.getElementById('lenguajes');
 
 export const FnSkill = () => {
